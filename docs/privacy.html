@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sayrite Privacy Policy</title>
+  <meta name="description" content="What Sayrite does with your voice and text: it collects nothing, works on your Mac by default, and sends data only to services you connect yourself." />
+  <link rel="canonical" href="https://sibinms.github.io/sayrite-site/privacy.html" />
+  <meta name="theme-color" content="#6d4cff" />
+  <link rel="icon" type="image/png" href="icon.png" />
+  <style>
+    :root { --bg: #fbfaff; --text: #17152b; --muted: #5d5a73; --line: #e6e3f2; --accent: #6d4cff; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #121020; --text: #efedfa; --muted: #a9a6c0; --line: #2b2840; --accent: #a08cff; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px 80px; }
+    a { color: var(--accent); }
+    .back { font-size: 14px; text-decoration: none; }
+    h1 { font-size: 36px; line-height: 1.15; letter-spacing: -0.02em; margin: 18px 0 6px; }
+    .updated { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
+    .summary { border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; margin: 0 0 32px; }
+    .summary p { margin: 0; }
+    h2 { font-size: 20px; margin: 36px 0 8px; letter-spacing: -0.01em; }
+    ul { padding-left: 22px; }
+    li { margin: 4px 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 15px; margin: 8px 0; }
+    th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+    th { font-weight: 600; }
+    footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <a class="back" href="./">← Sayrite</a>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated November 19, 2026</p>
+
+  <div class="summary">
+    <p><strong>In short:</strong> Sayrite doesn't collect anything about you. There are no accounts, no analytics and no servers of ours. By default your voice is turned into text on your Mac. If you connect a cloud service yourself, Sayrite sends what it needs straight to that service, using your own key.</p>
+  </div>
+
+  <h2>What stays on your Mac</h2>
+  <ul>
+    <li><strong>Your voice.</strong> Sayrite records only while you hold your shortcut key, or from when you click its mic until you send or cancel. With the on-device speech model or Apple's built-in speech recognition, the audio is processed on your Mac and never saved.</li>
+    <li><strong>Your settings, Your Words and Your Style notes.</strong> Stored in Sayrite's settings file on your Mac.</li>
+    <li><strong>Recent dictations.</strong> Kept in memory so you can see them under History. Turn off “Keep recent dictations” and Sayrite keeps no record of what you say.</li>
+    <li><strong>API keys.</strong> Stored in your Mac's Keychain. They never leave your Mac, except to sign in to the service they belong to.</li>
+    <li><strong>Learning from your fixes.</strong> When this is on, Sayrite checks the text box it just typed into, for up to two minutes, to see whether you corrected a name or term. It never reads password fields. It doesn't keep the text it reads, only the corrections you made, such as “Start Lee → Startly”.</li>
+    <li><strong>A diagnostics log.</strong> Records events such as “typed 120 characters into Slack”, never the words themselves.</li>
+  </ul>
+
+  <h2>What is sent, and only if you choose it</h2>
+  <table>
+    <tr><th>When you…</th><th>Sayrite sends</th><th>To</th></tr>
+    <tr><td>Connect Groq or OpenAI for speech recognition</td><td>The audio of each dictation</td><td>That service, with your API key</td></tr>
+    <tr><td>Connect Claude, OpenAI or Groq for editing</td><td>The text of each dictation, plus what helps edit it: Your Words, Your Style notes, learned corrections, and the text you dictated just before into the same app</td><td>That service, with your API key</td></tr>
+    <tr><td>Turn on “Sync with iCloud”</td><td>Your settings, Your Words, Your Style notes, learned corrections, usage counts and, if you allow it, recent dictations</td><td>Your own iCloud account</td></tr>
+    <tr><td>Download a speech model</td><td>A standard download request (no personal data)</td><td>Hugging Face</td></tr>
+  </table>
+  <p>These services handle your data under their own privacy policies: <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>, <a href="https://openai.com/policies/privacy-policy/">OpenAI</a>, <a href="https://groq.com/privacy-policy/">Groq</a> and <a href="https://www.apple.com/legal/privacy/">Apple</a>.</p>
+
+  <h2>What Sayrite never does</h2>
+  <ul>
+    <li>Collect analytics, crash reports or usage data for us.</li>
+    <li>Track you across apps or websites, or show ads.</li>
+    <li>Sell or share your data.</li>
+    <li>Listen when you're not dictating.</li>
+  </ul>
+
+  <h2>Permissions Sayrite asks for</h2>
+  <ul>
+    <li><strong>Microphone:</strong> to hear you while you dictate.</li>
+    <li><strong>Input Monitoring:</strong> to notice when you press your shortcut key or click Sayrite's mic. Sayrite only looks for that key, and only checks whether a click lands on its mic.</li>
+    <li><strong>Accessibility:</strong> to find the text box you're typing in so the mic can sit inside it, type the text into the app you're using and, if you allow it, learn from your fixes.</li>
+    <li><strong>Speech Recognition</strong> (optional): to use Apple's built-in speech recognition on your Mac.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Sayrite doesn't knowingly collect information from anyone, including children.</p>
+
+  <h2>Changes and contact</h2>
+  <p>If this policy changes, the date at the top changes too. For questions, <a href="https://github.com/sibinms/sayrite-site/issues">open an issue on GitHub</a>.</p>
+
+  <footer>Sayrite is free.</footer>
+</main>
+</body>
+</html>
