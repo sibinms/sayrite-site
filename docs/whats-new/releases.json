@@ -1,0 +1,68 @@
+[
+  {
+    "version": "0.1.0",
+    "title": "Sayrite is here",
+    "summary": "The first download of Sayrite for Mac. Click the mic or hold a key, say what you mean, and polished text appears in any app.",
+    "date": "2026-11-20",
+    "highlights": [
+      {
+        "title": "Speak anywhere you type",
+        "body": [
+          "Click the mic that appears in any text box, or hold [[Right Option]], and talk. Sayrite types clean, punctuated text straight into the app you're in: Mail, Slack, Notes, your browser, anything.",
+          "Words show up as you speak, so you can see it's listening. Say **\"send now\"** when you're done, and the message sends itself."
+        ],
+        "media": [
+          {
+            "src": "recording-card.png",
+            "alt": "Words appearing in a note while Sayrite listens",
+            "video": false
+          }
+        ]
+      },
+      {
+        "title": "Your voice can stay on your Mac",
+        "body": [
+          "Pick how Sayrite hears you. Apple's built-in recognition (macOS 26) and Whisper both run entirely on your Mac, even offline. Prefer the cloud? Connect Groq or OpenAI and your recordings go straight to them, never to us."
+        ],
+        "media": [
+          {
+            "src": "speech.png",
+            "alt": "Speech settings with on-device and cloud options",
+            "video": false
+          }
+        ]
+      },
+      {
+        "title": "Writes like you, minus the ums",
+        "body": [
+          "Sayrite drops filler words, applies spoken corrections (\"Tuesday, no wait, Wednesday\" becomes \"Wednesday\") and, if you connect Claude, OpenAI or Groq, fixes grammar in your own style."
+        ],
+        "media": [
+          {
+            "src": "writing.png",
+            "alt": "Writing settings with Claude chosen for grammar correction",
+            "video": false
+          }
+        ]
+      }
+    ],
+    "changes": [
+      {
+        "kind": "new",
+        "text": "**Your Words**: teach Sayrite names and terms, and it learns from the fixes you make."
+      },
+      {
+        "kind": "new",
+        "text": "**Hands-free mode**: keep talking as long as you like, and Sayrite types it all at the end."
+      },
+      {
+        "kind": "new",
+        "text": "**iCloud sync**: your words, style and preferences follow you to every Mac."
+      },
+      {
+        "kind": "new",
+        "text": "Signed with our Developer ID and notarized by Apple, so it opens with a normal double-click."
+      }
+    ]
+  }
+]

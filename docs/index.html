@@ -91,6 +91,8 @@
     .hero::before { content: ""; position: absolute; inset: -20% -10% auto; height: 760px; z-index: -1;
       background: radial-gradient(600px 380px at 30% 30%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 70%),
                   radial-gradient(520px 360px at 72% 40%, color-mix(in srgb, var(--accent-2) 22%, transparent), transparent 70%); }
+    a.eyebrow:hover { filter: brightness(1.08); }
+    .new-dot { width: 8px; height: 8px; border-radius: 50%; background: linear-gradient(135deg, #6d4cff, #ff8a65); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 18%, transparent); }
     .eyebrow { display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border-radius: 999px; font-size: 13.5px; font-weight: 600;
       color: var(--accent); background: var(--accent-soft); letter-spacing: .01em; }
     h1 { font-size: clamp(44px, 7.4vw, 88px); line-height: 1.02; letter-spacing: -0.045em; margin: 22px auto 22px; font-weight: 800; max-width: 920px; }
@@ -198,7 +200,7 @@
 <nav>
   <div class="wrap">
     <a class="brand" href="#"><img src="icon.png" alt="" />Sayrite</a>
-    <div class="links"><a href="#how">How it works</a><a href="#features">Features</a><a href="#privacy">Privacy</a><a href="#faq">FAQ</a></div>
+    <div class="links"><a href="#how">How it works</a><a href="#features">Features</a><a href="#privacy">Privacy</a><a href="whats-new.html">What’s new</a><a href="#faq">FAQ</a></div>
     <a class="btn primary" href="https://github.com/sibinms/sayrite-site/releases/latest/download/Sayrite.dmg">Download for Mac</a>
   </div>
 </nav>
@@ -206,7 +208,7 @@
 <main>
   <header class="hero">
     <div class="wrap">
-      <span class="eyebrow">Free · For Mac</span>
+      <!--whats-new--><a class="eyebrow" href="whats-new.html#v0.1.0"><span class="new-dot"></span>New in 0.1.0: Sayrite is here <span aria-hidden="true">→</span></a><!--/whats-new-->
       <h1>Say it.<br /><span class="grad">It’s written right.</span></h1>
       <p class="sub">Click the mic in any text box, speak, and polished text appears. Private dictation that feels like part of your Mac, with no account and no subscription.</p>
       <div class="ctas">
@@ -345,7 +347,7 @@
 
       <footer>
         <span>Sayrite</span>
-        <span><a href="https://github.com/sibinms/sayrite-site/releases/latest/download/Sayrite.dmg">Download</a> · <a href="https://github.com/sibinms/sayrite-site/issues">Report an issue</a> · <a href="privacy.html">Privacy policy</a></span>
+        <span><a href="https://github.com/sibinms/sayrite-site/releases/latest/download/Sayrite.dmg">Download</a> · <a href="whats-new.html">What’s new</a> · <a href="https://github.com/sibinms/sayrite-site/issues">Report an issue</a> · <a href="privacy.html">Privacy policy</a></span>
       </footer>
     </div>
   </section>

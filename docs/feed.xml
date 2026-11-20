@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>What’s new in Sayrite</title>
+  <link href="https://sibinms.github.io/sayrite-site/whats-new.html" />
+  <link rel="self" href="https://sibinms.github.io/sayrite-site/feed.xml" />
+  <id>https://sibinms.github.io/sayrite-site/whats-new.html</id>
+  <updated>2026-11-20T00:00:00Z</updated>
+  <entry>
+    <title>Sayrite 0.1.0: Sayrite is here</title>
+    <link href="https://sibinms.github.io/sayrite-site/whats-new.html#v0.1.0" />
+    <id>https://sibinms.github.io/sayrite-site/whats-new.html#v0.1.0</id>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <content type="html">&lt;p&gt;The first download of Sayrite for Mac. Click the mic or hold a key, say what you mean, and polished text appears in any app.&lt;/p&gt;&lt;h3&gt;Speak anywhere you type&lt;/h3&gt;&lt;p&gt;Click the mic that appears in any text box, or hold &lt;kbd&gt;Right Option&lt;/kbd&gt;, and talk. Sayrite types clean, punctuated text straight into the app you’re in: Mail, Slack, Notes, your browser, anything.&lt;/p&gt;&lt;p&gt;Words show up as you speak, so you can see it’s listening. Say &lt;strong&gt;”send now”&lt;/strong&gt; when you’re done, and the message sends itself.&lt;/p&gt;&lt;h3&gt;Your voice can stay on your Mac&lt;/h3&gt;&lt;p&gt;Pick how Sayrite hears you. Apple’s built-in recognition (macOS 26) and Whisper both run entirely on your Mac, even offline. Prefer the cloud? Connect Groq or OpenAI and your recordings go straight to them, never to us.&lt;/p&gt;&lt;h3&gt;Writes like you, minus the ums&lt;/h3&gt;&lt;p&gt;Sayrite drops filler words, applies spoken corrections (“Tuesday, no wait, Wednesday” becomes “Wednesday”) and, if you connect Claude, OpenAI or Groq, fixes grammar in your own style.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;New: &lt;strong&gt;Your Words&lt;/strong&gt;: teach Sayrite names and terms, and it learns from the fixes you make.&lt;/li&gt;&lt;li&gt;New: &lt;strong&gt;Hands-free mode&lt;/strong&gt;: keep talking as long as you like, and Sayrite types it all at the end.&lt;/li&gt;&lt;li&gt;New: &lt;strong&gt;iCloud sync&lt;/strong&gt;: your words, style and preferences follow you to every Mac.&lt;/li&gt;&lt;li&gt;New: Signed with our Developer ID and notarized by Apple, so it opens with a normal double-click.&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
+</feed>
