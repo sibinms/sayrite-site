@@ -33,7 +33,9 @@
     "url": "https://sibinms.github.io/sayrite-site/",
     "downloadUrl": "https://github.com/sibinms/sayrite-site/releases/latest/download/Sayrite.dmg",
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-    "screenshot": "https://sibinms.github.io/sayrite-site/demo/poster.png"
+    "screenshot": "https://sibinms.github.io/sayrite-site/demo/poster.png",
+    "image": "https://sibinms.github.io/sayrite-site/icon.png",
+    "featureList": ["Dictation in any Mac app", "On-device speech recognition with Whisper or Apple", "Filler-word removal and spoken corrections", "Optional AI grammar correction", "Send by voice with \"send now\"", "Custom vocabulary for names and terms"]
   }
   </script>
   <script type="application/ld+json">
@@ -48,7 +50,13 @@
       { "@type": "Question", "name": "Which Macs does Sayrite support?",
         "acceptedAnswer": { "@type": "Answer", "text": "Macs with Apple silicon running macOS 13 or later. On macOS 26, Sayrite can use Apple's built-in speech recognition with nothing extra to download." } },
       { "@type": "Question", "name": "Do I need an AI subscription?",
-        "acceptedAnswer": { "@type": "Answer", "text": "No. Sayrite removes filler words and applies spoken corrections on its own. For AI grammar correction you can connect your own Claude, OpenAI, or Groq account; Groq has a free plan." } }
+        "acceptedAnswer": { "@type": "Answer", "text": "No. Sayrite removes filler words and applies spoken corrections on its own. For AI grammar correction you can connect your own Claude, OpenAI, or Groq account; Groq has a free plan." } },
+      { "@type": "Question", "name": "How is Sayrite different from macOS Dictation?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Sayrite removes filler words, applies spoken corrections like “no wait, Wednesday”, can fix grammar with AI, learns your own names and terms, and lets you send a message by saying “send now”. You also choose the speech engine: Apple’s, Whisper on your Mac, or a cloud service." } },
+      { "@type": "Question", "name": "Which shortcut can I use to dictate?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Right Option (the default), Fn (Globe), Right Command, or Right Shift. Hold it while you speak, then release. Or click the mic in the text box instead." } },
+      { "@type": "Question", "name": "Why does Sayrite ask for Input Monitoring and Accessibility?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Input Monitoring lets Sayrite notice your dictation shortcut and clicks on its mic. Accessibility lets it find the text box you’re in and type into it. It doesn’t record your keystrokes or read your screen." } }
     ]
   }
   </script>
@@ -222,7 +230,7 @@
         <video autoplay muted loop playsinline poster="demo/poster.png" width="1920" height="1200"
           aria-label="Demo: holding Right Option and speaking a messy sentence types a clean message into a chat app, and saying “send now” sends it">
           <source src="demo/sayrite-demo.mp4" type="video/mp4" />
-          <img src="demo/sayrite-demo.gif" alt="Sayrite dictation demo" />
+          <img src="demo/sayrite-demo.gif" alt="Demo: dictating a message in a chat app on Mac with Sayrite. Spoken filler words and a self-correction are cleaned up, and saying “send now” sends it." />
         </video>
       </div>
     </div>
@@ -336,6 +344,8 @@
         <details><summary>Does Sayrite work offline?</summary><p>Yes. With on-device speech recognition and basic editing, Sayrite works completely offline. Cloud speech and AI grammar correction are optional.</p></details>
         <details><summary>Which Macs does Sayrite support?</summary><p>Macs with Apple silicon running macOS 13 or later. On macOS 26, Sayrite can use Apple’s built-in speech recognition with nothing extra to download.</p></details>
         <details><summary>Do I need an AI subscription?</summary><p>No. Sayrite removes filler words and applies spoken corrections on its own. For AI grammar correction, connect your own Claude, OpenAI, or Groq account; Groq has a free plan.</p></details>
+        <details><summary>How is Sayrite different from macOS Dictation?</summary><p>Sayrite removes filler words, applies spoken corrections like “no wait, Wednesday”, can fix grammar with AI, learns your own names and terms, and lets you send a message by saying “send now”. You also choose the speech engine: Apple’s, Whisper on your Mac, or a cloud service.</p></details>
+        <details><summary>Which shortcut can I use to dictate?</summary><p>Right Option (the default), Fn (Globe), Right Command, or Right Shift. Hold it while you speak, then release. Or click the mic in the text box instead.</p></details>
         <details><summary>Why does Sayrite ask for Input Monitoring and Accessibility?</summary><p>Input Monitoring lets Sayrite notice your dictation shortcut and clicks on its mic. Accessibility lets it find the text box you’re in and type into it. It doesn’t record your keystrokes or read your screen.</p></details>
       </div>
 
