@@ -1,5 +1,44 @@
 [
   {
+    "version": "0.2.1",
+    "title": "Updates arrive on their own",
+    "summary": "Sayrite now keeps itself up to date, so you always have the newest features and fixes without downloading anything again.",
+    "date": "2026-11-23",
+    "highlights": [
+      {
+        "title": "Sayrite updates itself",
+        "body": [
+          "Every few hours Sayrite checks for a new version. When there is one, it downloads quietly in the background and checks it really comes from us before installing anything.",
+          "To finish, choose **Restart to Update** in the menu bar or in Settings. Busy? Sayrite restarts on its own once you've stepped away for a while, never in the middle of a dictation."
+        ],
+        "media": [
+          {
+            "src": "update-ready.png",
+            "alt": "Settings showing Restart to Update to 0.2.1",
+            "video": false
+          }
+        ]
+      },
+      {
+        "title": "See what's new",
+        "body": [
+          "This page is new too. Each update lists what changed, with screenshots, and you can follow along with the RSS feed."
+        ],
+        "media": []
+      }
+    ],
+    "changes": [
+      {
+        "kind": "new",
+        "text": "**Check for Updates…** in the menu bar, to look for a new version right away."
+      },
+      {
+        "kind": "fixed",
+        "text": "Settings no longer says your recordings are sent away when you use Apple's built-in speech recognition. It runs on your Mac, and your audio stays there."
+      }
+    ]
+  },
+  {
     "version": "0.1.0",
     "title": "Sayrite is here",
     "summary": "The first download of Sayrite for Mac. Click the mic or hold a key, say what you mean, and polished text appears in any app.",

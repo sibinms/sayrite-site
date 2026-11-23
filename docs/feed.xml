@@ -4,7 +4,14 @@
   <link href="https://sibinms.github.io/sayrite-site/whats-new.html" />
   <link rel="self" href="https://sibinms.github.io/sayrite-site/feed.xml" />
   <id>https://sibinms.github.io/sayrite-site/whats-new.html</id>
-  <updated>2026-11-20T00:00:00Z</updated>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <entry>
+    <title>Sayrite 0.2.1: Updates arrive on their own</title>
+    <link href="https://sibinms.github.io/sayrite-site/whats-new.html#v0.2.1" />
+    <id>https://sibinms.github.io/sayrite-site/whats-new.html#v0.2.1</id>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <content type="html">&lt;p&gt;Sayrite now keeps itself up to date, so you always have the newest features and fixes without downloading anything again.&lt;/p&gt;&lt;h3&gt;Sayrite updates itself&lt;/h3&gt;&lt;p&gt;Every few hours Sayrite checks for a new version. When there is one, it downloads quietly in the background and checks it really comes from us before installing anything.&lt;/p&gt;&lt;p&gt;To finish, choose &lt;strong&gt;Restart to Update&lt;/strong&gt; in the menu bar or in Settings. Busy? Sayrite restarts on its own once you’ve stepped away for a while, never in the middle of a dictation.&lt;/p&gt;&lt;h3&gt;See what’s new&lt;/h3&gt;&lt;p&gt;This page is new too. Each update lists what changed, with screenshots, and you can follow along with the RSS feed.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;New: &lt;strong&gt;Check for Updates…&lt;/strong&gt; in the menu bar, to look for a new version right away.&lt;/li&gt;&lt;li&gt;Fixed: Settings no longer says your recordings are sent away when you use Apple’s built-in speech recognition. It runs on your Mac, and your audio stays there.&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Sayrite 0.1.0: Sayrite is here</title>
     <link href="https://sibinms.github.io/sayrite-site/whats-new.html#v0.1.0" />
