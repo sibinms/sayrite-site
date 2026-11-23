@@ -1,5 +1,26 @@
 [
   {
+    "version": "0.2.2",
+    "title": "Your words stay where you started",
+    "summary": "Start dictating in one app, glance at another, and your words still land where your cursor was.",
+    "date": "2026-11-23",
+    "highlights": [
+      {
+        "title": "Switch apps while you talk",
+        "body": [
+          "Sayrite now remembers the text box you started in. If you move to another app before you finish, your words still go into that box, usually without pulling you back. When a message needs sending, Sayrite returns to it for a moment, sends, and brings you right back."
+        ],
+        "media": []
+      }
+    ],
+    "changes": [
+      {
+        "kind": "fixed",
+        "text": "Dictation no longer disappears when you switch to another app before it's typed."
+      }
+    ]
+  },
+  {
     "version": "0.2.1",
     "title": "Updates arrive on their own",
     "summary": "Sayrite now keeps itself up to date, so you always have the newest features and fixes without downloading anything again.",
